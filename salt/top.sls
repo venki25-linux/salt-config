@@ -1,3 +1,4 @@
-base:
-  '*':
+emea:
+  'G@region:emea':
+    - match: compound
     - common
