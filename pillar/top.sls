@@ -1,15 +1,5 @@
-base:
-  '*':
-    - common.defaults
-
 apac:
-  '*':
+  'G@region:apac':
+    - match: compound
+    - common.defaults
     - regions.apac.defaults
-
-emea:
-  '*':
-    - regions.emea.defaults
-
-nafta:
-  '*':
-    - regions.nafta.defaults
